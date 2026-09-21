@@ -1,0 +1,1226 @@
+{
+  "theme": "Environment & Sustainable Development",
+  "subtheme": "Responsible Optimization",
+  "language": "en",
+  "difficulty_scale": {
+    "1": "General public",
+    "2": "Beginner",
+    "3": "Advanced",
+    "4": "Engineering"
+  },
+  "difficulty_distribution": {
+    "1": 13,
+    "2": 6,
+    "3": 4,
+    "4": 2
+  },
+  "question_count": 25,
+  "questions": [
+    {
+      "id": "OPT-TF-01",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Optimising a machine can mean getting the same result while using fewer resources.",
+      "answer": true,
+      "explanation": "Optimisation is about doing more with less: the same output for less energy, time, or material."
+    },
+    {
+      "id": "OPT-TF-02",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Leaving a robot switched on all the time is the best way to save energy.",
+      "answer": false,
+      "explanation": "A robot left on continuously wastes energy while idle; switching it off or to standby saves power."
+    },
+    {
+      "id": "OPT-TF-03",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Designing robots to be repairable helps reduce electronic waste.",
+      "answer": true,
+      "explanation": "If a robot can be repaired instead of thrown away, fewer devices end up as waste."
+    },
+    {
+      "id": "OPT-TF-04",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "The fastest possible solution is always the most environmentally friendly one.",
+      "answer": false,
+      "explanation": "Going faster often consumes more energy; the greenest choice balances speed against resource use."
+    },
+    {
+      "id": "OPT-TF-05",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Using recycled materials can lower the environmental cost of building a robot.",
+      "answer": true,
+      "explanation": "Recycled materials reduce the need to extract and process new raw resources."
+    },
+    {
+      "id": "OPT-TF-06",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Adding useless extra weight to a robot has no effect on its energy use.",
+      "answer": false,
+      "explanation": "More mass means the motors must work harder to move it, so energy use rises."
+    },
+    {
+      "id": "OPT-MCQ-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What does it mean to 'optimise' a robot's energy use?",
+      "options": [
+        "Using as much power as possible",
+        "Making the robot as heavy as possible",
+        "Doing the same task while using less energy",
+        "Charging the battery more often"
+      ],
+      "answer": 2,
+      "explanation": "Optimising energy use means achieving the same result with less consumption."
+    },
+    {
+      "id": "OPT-MCQ-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Which habit makes a fleet of delivery robots more sustainable?",
+      "options": [
+        "Driving around the city at random",
+        "Planning shorter routes to save energy",
+        "Keeping every robot running all night for no reason",
+        "Adding extra weight to each robot"
+      ],
+      "answer": 1,
+      "explanation": "Shorter, well-planned routes cut both energy use and travel time."
+    },
+    {
+      "id": "OPT-MCQ-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Why is it better to design a robot that lasts longer and is easy to repair?",
+      "options": [
+        "It makes the robot look older",
+        "It forces people to buy more robots",
+        "It has no effect on the environment",
+        "It reduces waste and the need to build new ones"
+      ],
+      "answer": 3,
+      "explanation": "Durable, repairable design keeps robots in service longer and limits waste."
+    },
+    {
+      "id": "OPT-MCQ-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What is a simple way to reduce a robot's environmental footprint?",
+      "options": [
+        "Turning it off when it is not being used",
+        "Leaving it switched on permanently",
+        "Running it at full speed constantly",
+        "Fitting a much bigger battery for no reason"
+      ],
+      "answer": 0,
+      "explanation": "Powering down during idle time avoids wasting energy."
+    },
+    {
+      "id": "OPT-MCQ-05",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "'Responsible optimisation' means improving a system while also caring about:",
+      "options": [
+        "Only how fast it looks",
+        "Only the colour of its body",
+        "Its impact on the environment and resources",
+        "Only the brand printed on it"
+      ],
+      "answer": 2,
+      "explanation": "Responsible optimisation weighs performance against environmental and resource costs."
+    },
+    {
+      "id": "OPT-MCQ-06",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can using recycled materials to build robots help the planet?",
+      "options": [
+        "It lowers the demand for new raw materials",
+        "It makes the robot impossible to move",
+        "It increases pollution on purpose",
+        "It stops the robot from working"
+      ],
+      "answer": 0,
+      "explanation": "Less demand for virgin materials means less mining, processing, and pollution."
+    },
+    {
+      "id": "OPT-MCQ-07",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Which choice saves the most energy for a warehouse robot over a full day?",
+      "options": [
+        "Making it circle the warehouse endlessly",
+        "Keeping its motors spinning at all times",
+        "Adding unnecessary trips between shelves",
+        "Letting it rest when there are no tasks"
+      ],
+      "answer": 3,
+      "explanation": "Idle rest between tasks avoids the biggest source of wasted energy: pointless movement."
+    },
+    {
+      "id": "OPT-TF-07",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "There is often a trade-off between a robot's maximum performance and its energy efficiency.",
+      "answer": true,
+      "explanation": "Pushing for top speed or force usually costs more energy, so engineers balance the two."
+    },
+    {
+      "id": "OPT-TF-08",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "A life-cycle assessment looks only at the energy a robot uses while running.",
+      "answer": false,
+      "explanation": "It also covers manufacturing, transport, maintenance, and end-of-life disposal."
+    },
+    {
+      "id": "OPT-TF-09",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Reducing the number of unnecessary movements can lower a robot's energy consumption.",
+      "answer": true,
+      "explanation": "Every extra movement costs energy, so removing redundant motions improves efficiency."
+    },
+    {
+      "id": "OPT-MCQ-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Responsible optimisation aims to cut a robot's energy use while keeping:",
+      "options": [
+        "The highest possible top speed",
+        "The quality of the task it performs",
+        "The largest possible battery",
+        "The heaviest possible frame"
+      ],
+      "answer": 1,
+      "explanation": "The point is to save energy without sacrificing how well the job gets done."
+    },
+    {
+      "id": "OPT-MCQ-09",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Which metric would an engineer track to optimise a robot responsibly?",
+      "options": [
+        "The number of colours on its body",
+        "The loudness of its motors",
+        "Energy consumed per task completed",
+        "The length of its model name"
+      ],
+      "answer": 2,
+      "explanation": "Energy per task links resource use directly to useful work, the key efficiency indicator."
+    },
+    {
+      "id": "OPT-MCQ-10",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Eco-design of a robot mainly considers its impact:",
+      "options": [
+        "Across its whole life, from production to disposal",
+        "Only on the day it is sold",
+        "Only its outer shape",
+        "Only its price tag"
+      ],
+      "answer": 0,
+      "explanation": "Eco-design takes a life-cycle view rather than looking at a single moment."
+    },
+    {
+      "id": "OPT-TF-10",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "In multi-objective optimisation, improving one objective can force another objective to get worse.",
+      "answer": true,
+      "explanation": "Conflicting objectives (e.g. speed vs energy) mean gains in one often come at the expense of another."
+    },
+    {
+      "id": "OPT-TF-11",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "A globally optimal energy solution is always easy to compute for a complex robot.",
+      "answer": false,
+      "explanation": "Many robotics problems are non-convex and high-dimensional, so finding the true global optimum is hard."
+    },
+    {
+      "id": "OPT-MCQ-11",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Optimising a robot for both speed and low energy use at the same time is an example of:",
+      "options": [
+        "Single-variable calibration",
+        "Multi-objective optimisation",
+        "Random search alone",
+        "Manual override control"
+      ],
+      "answer": 1,
+      "explanation": "Balancing two or more competing goals is precisely multi-objective optimisation."
+    },
+    {
+      "id": "OPT-MCQ-12",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "When several goals conflict (energy, speed, precision), engineers often look for solutions on the:",
+      "options": [
+        "Pareto front of the possible trade-offs",
+        "Longest available route",
+        "Maximum-power setting",
+        "Heaviest configuration"
+      ],
+      "answer": 0,
+      "explanation": "The Pareto front holds the solutions where no objective can improve without another getting worse."
+    },
+    {
+      "id": "OPT-TF-12",
+      "type": "true_false",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "Gradient-based optimisation is guaranteed to find the global energy minimum for any robot, whatever the shape of the problem.",
+      "answer": false,
+      "explanation": "Gradient methods can get stuck in local minima; a global guarantee generally requires a convex problem."
+    },
+    {
+      "id": "OPT-MCQ-13",
+      "type": "mcq",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "When minimising the energy of a mobile robot's trajectory, the most complete quantity to minimise is:",
+      "options": [
+        "The straight-line distance to the goal",
+        "Total mechanical work plus standby power over the mission",
+        "The number of waypoints on the path",
+        "The processor's clock frequency"
+      ],
+      "answer": 1,
+      "explanation": "Energy depends on the work done against forces plus idle consumption, not on distance or waypoint count alone."
+    },
+    {
+      "id": "ENV-TF-01",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can be used to collect plastic waste floating on the surface of the ocean.",
+      "answer": true,
+      "explanation": "Surface cleanup robots and floating collection systems already gather plastic debris in rivers and harbours."
+    },
+    {
+      "id": "ENV-TF-02",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Farming robots can remove weeds mechanically, which reduces the need for chemical herbicides.",
+      "answer": true,
+      "explanation": "Weeding robots pull, cut, or zap weeds directly, so farmers can spray far less herbicide."
+    },
+    {
+      "id": "ENV-TF-03",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Some robots are used in recycling centres to sort materials such as plastic, glass, and metal.",
+      "answer": true,
+      "explanation": "Vision-guided sorting robots identify and separate recyclable materials faster than humans."
+    },
+    {
+      "id": "ENV-TF-04",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can help scientists observe wild animals by filming them without disturbing them.",
+      "answer": true,
+      "explanation": "Camera robots and disguised robots record wildlife up close while staying unobtrusive."
+    },
+    {
+      "id": "ENV-TF-05",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Small flying robots have been tested to help pollinate flowers, similar to what bees do.",
+      "answer": true,
+      "explanation": "Experimental robotic pollinators have been developed as a possible backup for declining bee populations."
+    },
+    {
+      "id": "ENV-TF-06",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "A robot that runs on a battery never needs to be recharged.",
+      "answer": false,
+      "explanation": "A battery stores a limited amount of energy and must be recharged or replaced once it is empty."
+    },
+    {
+      "id": "ENV-TF-07",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can be sent into places too dangerous for humans, such as damaged nuclear power plants.",
+      "answer": true,
+      "explanation": "Robots have inspected and helped clean hazardous zones, for example after the Fukushima accident."
+    },
+    {
+      "id": "ENV-MCQ-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Which of these is a real environmental task performed by robots today?",
+      "options": [
+        "Cleaning plastic waste from the ocean",
+        "Painting the sky to reduce heat",
+        "Directly controlling the weather",
+        "Turning off the sun at night"
+      ],
+      "answer": 0,
+      "explanation": "Ocean and river cleanup robots exist; the other options are not physically possible."
+    },
+    {
+      "id": "ENV-MCQ-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can agricultural robots help protect the environment?",
+      "options": [
+        "By spraying pesticide only where it is actually needed",
+        "By spreading more pesticide everywhere to be safe",
+        "By permanently removing all insects from a region",
+        "By replacing the soil with plastic"
+      ],
+      "answer": 0,
+      "explanation": "Targeted (precision) spraying dramatically cuts the total amount of chemicals released."
+    },
+    {
+      "id": "ENV-MCQ-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots that clean the surface of solar panels help the environment mainly because:",
+      "options": [
+        "Clean panels produce more renewable electricity",
+        "They make the panels look nicer",
+        "They cool down the whole planet directly",
+        "They remove clouds from the sky"
+      ],
+      "answer": 0,
+      "explanation": "Dust and dirt lower a panel's output, so keeping panels clean maximises clean energy production."
+    },
+    {
+      "id": "ENV-MCQ-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can a robot lawnmower be more environmentally friendly than a traditional one?",
+      "options": [
+        "It runs on electricity instead of petrol",
+        "It uses twice as much fuel",
+        "It cuts down trees automatically",
+        "It replaces the grass with concrete"
+      ],
+      "answer": 0,
+      "explanation": "Running on electricity avoids the emissions and noise of a petrol engine."
+    },
+    {
+      "id": "ENV-MCQ-05",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Which animal-inspired robot is used to explore oceans and study marine life?",
+      "options": [
+        "A robotic fish",
+        "A robotic giraffe",
+        "A robotic elephant",
+        "A robotic kangaroo"
+      ],
+      "answer": 0,
+      "explanation": "Robotic fish can swim among real fish with minimal disturbance to observe them."
+    },
+    {
+      "id": "ENV-MCQ-06",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Where are cleanup robots often placed to catch floating trash before it reaches the ocean?",
+      "options": [
+        "In rivers and harbours",
+        "On mountain tops",
+        "In the middle of deserts",
+        "Inside volcanoes"
+      ],
+      "answer": 0,
+      "explanation": "Rivers carry much of the plastic that ends up in the sea, so intercepting it there is effective."
+    },
+    {
+      "id": "ENV-TF-08",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "A robot powered only by solar panels has zero environmental impact.",
+      "answer": false,
+      "explanation": "Manufacturing the robot, its batteries, and the panels consumes energy and raw materials, so its life-cycle impact is never zero."
+    },
+    {
+      "id": "ENV-TF-09",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Drones are used to help reforest areas by dropping germinating seed pods onto the ground.",
+      "answer": true,
+      "explanation": "Seed-planting drones can cover large or hard-to-reach areas much faster than human planters."
+    },
+    {
+      "id": "ENV-TF-10",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "An Autonomous Underwater Vehicle (AUV) needs a physical cable to a boat in order to operate.",
+      "answer": false,
+      "explanation": "AUVs are untethered and navigate on their own; it is the ROV that stays connected by a cable."
+    },
+    {
+      "id": "ENV-MCQ-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "In marine robotics, what does 'ROV' stand for?",
+      "options": [
+        "Remotely Operated Vehicle",
+        "Robotic Ocean Vessel",
+        "Remote Oceanic Vehicle",
+        "Radio Operated Vehicle"
+      ],
+      "answer": 0,
+      "explanation": "An ROV is a tethered underwater robot controlled by an operator from the surface."
+    },
+    {
+      "id": "ENV-MCQ-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Why are robots often used instead of human divers for long underwater inspections?",
+      "options": [
+        "They can stay underwater far longer and reach dangerous depths",
+        "They are always cheaper than a diving suit",
+        "They never require any maintenance",
+        "They can breathe underwater like fish"
+      ],
+      "answer": 0,
+      "explanation": "Endurance and access to hazardous depths are the key advantages; robots still need maintenance."
+    },
+    {
+      "id": "ENV-MCQ-09",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Which renewable energy source is most commonly used to power outdoor environmental robots?",
+      "options": [
+        "Solar energy",
+        "Coal",
+        "Diesel fuel",
+        "Natural gas"
+      ],
+      "answer": 0,
+      "explanation": "Solar panels let robots recharge in the field without relying on fossil fuels."
+    },
+    {
+      "id": "ENV-TF-11",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "A standard color camera is the best sensor for a robot navigating in deep, murky water.",
+      "answer": false,
+      "explanation": "Light is absorbed and scattered quickly underwater, so acoustic sensors (sonar) are preferred for navigation and mapping."
+    },
+    {
+      "id": "ENV-TF-12",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "A swarm of small robots can be more robust than a single large robot for monitoring a wide area, because the mission continues even if one unit fails.",
+      "answer": true,
+      "explanation": "Redundancy and distributed coverage make swarms resilient: losing one unit only slightly reduces overall capability."
+    },
+    {
+      "id": "ENV-MCQ-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "In murky or deep water where cameras are ineffective, which sensor is most commonly used for navigation and mapping?",
+      "options": [
+        "Sonar (acoustic sensing)",
+        "A standard color camera",
+        "A GPS receiver",
+        "An infrared thermometer"
+      ],
+      "answer": 0,
+      "explanation": "Sound travels well underwater; note that GPS signals do not penetrate water, which is another reason sonar is used."
+    },
+    {
+      "id": "ENV-MCQ-11",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "What is the main environmental benefit of 'precision agriculture' robots?",
+      "options": [
+        "Using fewer inputs (water, fertiliser, pesticide) by treating plants individually",
+        "Growing crops with no sunlight at all",
+        "Removing the need for any seeds",
+        "Making plants grow to full size instantly"
+      ],
+      "answer": 0,
+      "explanation": "Treating each plant according to its real need reduces waste and runoff of water and chemicals."
+    },
+    {
+      "id": "ENV-TF-13",
+      "type": "true_false",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "Optimising a robot's path only for the shortest distance always minimises its energy consumption.",
+      "answer": false,
+      "explanation": "Accelerations, sharp turns, slopes, and terrain can make a slightly longer but smoother path more energy-efficient."
+    },
+    {
+      "id": "ENV-MCQ-12",
+      "type": "mcq",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "What most often limits the mission duration of an Autonomous Underwater Vehicle (AUV)?",
+      "options": [
+        "Its onboard energy storage (battery capacity)",
+        "The color of its hull",
+        "The number of cameras it carries",
+        "The speed of sound in water"
+      ],
+      "answer": 0,
+      "explanation": "Energy is the binding constraint: once the battery is depleted the mission ends, so energy budgeting is central to AUV design."
+    },
+    {
+      "id": "NAT-TF-01",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can help count animals in a nature reserve by taking photos from the air.",
+      "answer": true,
+      "explanation": "Aerial drones photograph herds and flocks so scientists can count populations without disturbing them."
+    },
+    {
+      "id": "NAT-TF-02",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "A robot placed in a forest can never disturb the animals living there.",
+      "answer": false,
+      "explanation": "A noisy or badly designed robot can frighten wildlife; careful design is needed to stay unobtrusive."
+    },
+    {
+      "id": "NAT-TF-03",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can help track the movement of whales or dolphins in the ocean.",
+      "answer": true,
+      "explanation": "Underwater and surface robots follow marine mammals and record where they travel."
+    },
+    {
+      "id": "NAT-TF-04",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Cleaning up an oil spill is impossible for any robot.",
+      "answer": false,
+      "explanation": "Specialised robots skim and absorb oil from the water surface during spills."
+    },
+    {
+      "id": "NAT-TF-05",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Some robots are built to look like animals so they blend into nature.",
+      "answer": true,
+      "explanation": "Bio-inspired robots shaped like fish or birds are accepted more easily by real animals."
+    },
+    {
+      "id": "NAT-TF-06",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Underwater robots are too heavy to ever float or dive in a controlled way.",
+      "answer": false,
+      "explanation": "They control their buoyancy with ballast and thrusters to float, dive, and hover precisely."
+    },
+    {
+      "id": "NAT-MCQ-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can a robot help study a coral reef?",
+      "options": [
+        "By filming and photographing it underwater",
+        "By painting the corals a new colour",
+        "By drying out the whole reef",
+        "By removing all the fish around it"
+      ],
+      "answer": 0,
+      "explanation": "Underwater robots record images used to check the health of the reef."
+    },
+    {
+      "id": "NAT-MCQ-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What can drones do to help protect wildlife from poachers?",
+      "options": [
+        "Feed every animal by hand",
+        "Watch large areas and alert rangers to intruders",
+        "Build fences overnight",
+        "Replace the rangers' salaries"
+      ],
+      "answer": 1,
+      "explanation": "Drones cover ground quickly and warn rangers about intruders in protected areas."
+    },
+    {
+      "id": "NAT-MCQ-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Why build a robot shaped like a fish to study the ocean?",
+      "options": [
+        "So it can be sold as a toy",
+        "So it scares away all the sea life",
+        "So real fish accept it and behave naturally",
+        "So it never needs any power"
+      ],
+      "answer": 2,
+      "explanation": "A fish-like shape lets the robot observe marine life without changing its behaviour."
+    },
+    {
+      "id": "NAT-MCQ-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can robots help protect forests?",
+      "options": [
+        "By cutting down all the trees faster",
+        "By painting the leaves greener",
+        "By removing the forest soil",
+        "By monitoring them for illegal logging or fires"
+      ],
+      "answer": 3,
+      "explanation": "Drones and ground robots watch for illegal logging and early signs of fire."
+    },
+    {
+      "id": "NAT-MCQ-05",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What is one way robots help clean natural water?",
+      "options": [
+        "By collecting floating waste from lakes and rivers",
+        "By adding more plastic to the water",
+        "By drinking the whole lake",
+        "By turning the water into sand"
+      ],
+      "answer": 0,
+      "explanation": "Surface cleanup robots skim floating litter before it spreads or reaches the sea."
+    },
+    {
+      "id": "NAT-MCQ-06",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can a robot help scientists track an endangered animal?",
+      "options": [
+        "By capturing every animal permanently",
+        "By following it and recording where it goes",
+        "By scaring it out of the area",
+        "By copying its exact colour"
+      ],
+      "answer": 1,
+      "explanation": "Robots trail tagged animals and log their routes to study their habits and range."
+    },
+    {
+      "id": "NAT-MCQ-07",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots that monitor air quality mainly measure:",
+      "options": [
+        "The number of clouds in the sky",
+        "The songs of nearby birds",
+        "Pollutants and gases in the air",
+        "The height of the tallest trees"
+      ],
+      "answer": 2,
+      "explanation": "Air-quality robots sense pollutant levels and gas concentrations."
+    },
+    {
+      "id": "NAT-TF-07",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "An ROV can send live video from underwater back to a boat through its cable.",
+      "answer": true,
+      "explanation": "The tether carries power down and live video and data back up to the operators."
+    },
+    {
+      "id": "NAT-TF-08",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Wildlife camera traps can only take photos during the day and never at night.",
+      "answer": false,
+      "explanation": "Infrared and night-vision cameras let them capture animals in complete darkness."
+    },
+    {
+      "id": "NAT-TF-09",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Monitoring a natural area with sensors gives scientists no data about how it changes over time.",
+      "answer": false,
+      "explanation": "Continuous sensing reveals trends and changes, which is exactly why it is used."
+    },
+    {
+      "id": "NAT-MCQ-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Why are robots useful for monitoring a large marine protected area?",
+      "options": [
+        "They can survey areas too big or deep for regular patrols",
+        "They can drink the whole sea",
+        "They can stop every storm",
+        "They can make the water disappear"
+      ],
+      "answer": 0,
+      "explanation": "Robots extend coverage to vast or deep zones that boats and divers cannot patrol often."
+    },
+    {
+      "id": "NAT-MCQ-09",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "What does a water-quality monitoring robot typically measure?",
+      "options": [
+        "The names of the fish",
+        "Things like temperature, oxygen, and acidity",
+        "The colour of nearby boats",
+        "The price of seafood at the market"
+      ],
+      "answer": 1,
+      "explanation": "These physical and chemical properties indicate the health of the water."
+    },
+    {
+      "id": "NAT-MCQ-10",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "How can robots help deal with invasive species in an ecosystem?",
+      "options": [
+        "By planting more of them everywhere",
+        "By ignoring every species they see",
+        "By identifying and reporting the unwanted species",
+        "By painting them a bright colour"
+      ],
+      "answer": 2,
+      "explanation": "Robots with cameras and recognition software spot invasive species so they can be managed."
+    },
+    {
+      "id": "NAT-TF-10",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Radio waves travel easily through seawater, so underwater robots stay wirelessly connected over long distances.",
+      "answer": false,
+      "explanation": "Seawater absorbs radio waves quickly, which is why underwater robots rely on acoustic (sound) links."
+    },
+    {
+      "id": "NAT-TF-11",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Machine vision can let a robot automatically recognise and count a species in its images.",
+      "answer": true,
+      "explanation": "Trained image-recognition models detect and tally individual animals in photos or video."
+    },
+    {
+      "id": "NAT-MCQ-11",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Why do underwater robots often use sound-based communication instead of radio?",
+      "options": [
+        "Because sound travels through water far better than radio",
+        "Because radio is banned at sea",
+        "Because sound looks prettier on screen",
+        "Because water blocks every kind of signal equally"
+      ],
+      "answer": 0,
+      "explanation": "Acoustic waves carry over long distances underwater, whereas radio is absorbed within metres."
+    },
+    {
+      "id": "NAT-MCQ-12",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "How can artificial intelligence help process large amounts of wildlife camera data?",
+      "options": [
+        "By deleting all the photos to save space",
+        "By blurring every image on purpose",
+        "By preventing any photo from being taken",
+        "By automatically detecting and classifying animals in the images"
+      ],
+      "answer": 3,
+      "explanation": "AI sorts through thousands of images and labels the species, saving huge amounts of manual work."
+    },
+    {
+      "id": "NAT-TF-12",
+      "type": "true_false",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "For a long-endurance ocean monitoring robot, harvesting energy from waves or sunlight can extend its mission far beyond battery limits.",
+      "answer": true,
+      "explanation": "Solar and wave-energy harvesting recharge the robot in place, allowing missions of weeks or months."
+    },
+    {
+      "id": "NAT-MCQ-13",
+      "type": "mcq",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "Which is a key challenge when localising an autonomous underwater vehicle over a long survey?",
+      "options": [
+        "The colour of the seabed",
+        "Position error that drifts over time without GPS underwater",
+        "The brand of the propeller",
+        "The number of onboard lights"
+      ],
+      "answer": 1,
+      "explanation": "With no GPS underwater, small errors accumulate, so the estimated position drifts and must be corrected."
+    },
+    {
+      "id": "RES-TF-01",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can pick ripe fruit and vegetables in a field or greenhouse.",
+      "answer": true,
+      "explanation": "Harvesting robots use cameras to spot ripe produce and gentle grippers to pick it."
+    },
+    {
+      "id": "RES-TF-02",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "A farm robot must always use more water than a human farmer to do the same job.",
+      "answer": false,
+      "explanation": "Farm robots often use less water by watering precisely, only where and when it is needed."
+    },
+    {
+      "id": "RES-TF-03",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "A leak-detection robot can help save water by finding hidden leaks in pipes.",
+      "answer": true,
+      "explanation": "Robots travel inside or along pipes to locate leaks that would otherwise waste large amounts of water."
+    },
+    {
+      "id": "RES-TF-04",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Using robots in a factory can never reduce the amount of wasted material.",
+      "answer": false,
+      "explanation": "Precise robotic cutting and assembly reduce off-cuts and defects, lowering material waste."
+    },
+    {
+      "id": "RES-TF-05",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots can help recycle old electronics by taking them apart.",
+      "answer": true,
+      "explanation": "Disassembly robots separate components so valuable materials can be recovered and reused."
+    },
+    {
+      "id": "RES-TF-06",
+      "type": "true_false",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Robots that sort products by quality must destroy every item they inspect.",
+      "answer": false,
+      "explanation": "Sorting robots inspect items without damaging them and simply route each one to the right place."
+    },
+    {
+      "id": "RES-MCQ-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can a farm robot reduce water use?",
+      "options": [
+        "By watering only the plants that need it",
+        "By flooding the whole field every day",
+        "By emptying the nearest river",
+        "By spraying water on the roads"
+      ],
+      "answer": 0,
+      "explanation": "Targeted watering delivers water plant by plant instead of soaking the whole field."
+    },
+    {
+      "id": "RES-MCQ-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What can a harvesting robot do in a field?",
+      "options": [
+        "Paint the crops red",
+        "Pick crops when they are ripe",
+        "Eat all the vegetables",
+        "Set the field on fire"
+      ],
+      "answer": 1,
+      "explanation": "Harvesting robots detect ripe crops and collect them at the right moment."
+    },
+    {
+      "id": "RES-MCQ-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How do robots help in a recycling plant?",
+      "options": [
+        "By mixing all the waste together",
+        "By burying the recyclables",
+        "By sorting materials so more can be reused",
+        "By producing more trash"
+      ],
+      "answer": 2,
+      "explanation": "Sorting robots separate plastics, metals, and paper so more material gets recycled."
+    },
+    {
+      "id": "RES-MCQ-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "Why use a robot to inspect a long water pipeline?",
+      "options": [
+        "To fill the pipe with sand",
+        "To drink the water inside",
+        "To hide the pipeline from view",
+        "To find leaks that waste water without digging everything up"
+      ],
+      "answer": 3,
+      "explanation": "A pipe-inspection robot locates leaks from the inside, avoiding costly digging."
+    },
+    {
+      "id": "RES-MCQ-05",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can robots make a factory more resource-efficient?",
+      "options": [
+        "By using materials precisely and cutting waste",
+        "By throwing away half the parts",
+        "By using twice the raw materials",
+        "By breaking the products on purpose"
+      ],
+      "answer": 0,
+      "explanation": "Precise robotic work reduces off-cuts, errors, and wasted material."
+    },
+    {
+      "id": "RES-MCQ-06",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "What is a benefit of robots that disassemble old devices?",
+      "options": [
+        "The devices become impossible to recycle",
+        "Valuable materials can be recovered and reused",
+        "All the metal is thrown into the sea",
+        "Nothing useful is ever recovered"
+      ],
+      "answer": 1,
+      "explanation": "Careful disassembly recovers metals and components for reuse instead of landfill."
+    },
+    {
+      "id": "RES-MCQ-07",
+      "type": "mcq",
+      "difficulty": 1,
+      "difficulty_label": "General public",
+      "question": "How can a robot help a greenhouse grow food with fewer chemicals?",
+      "options": [
+        "By spraying everything constantly",
+        "By removing all the healthy plants",
+        "By spotting sick plants and treating only those",
+        "By turning off the lights forever"
+      ],
+      "answer": 2,
+      "explanation": "Treating only affected plants cuts the total amount of pesticide used."
+    },
+    {
+      "id": "RES-TF-07",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Precision farming uses data about each area of a field to apply the right amount of water and fertiliser.",
+      "answer": true,
+      "explanation": "Sensors and maps let equipment vary inputs across the field instead of treating it uniformly."
+    },
+    {
+      "id": "RES-TF-08",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "In a circular economy, products are designed to be thrown away as quickly as possible.",
+      "answer": false,
+      "explanation": "A circular economy designs products so their materials can be reused, repaired, or recycled, not discarded."
+    },
+    {
+      "id": "RES-TF-09",
+      "type": "true_false",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "Automating a production line always makes it use more raw material per product.",
+      "answer": false,
+      "explanation": "Automation usually improves precision and reduces scrap, so material use per product tends to fall."
+    },
+    {
+      "id": "RES-MCQ-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "What is the main goal of 'precision agriculture'?",
+      "options": [
+        "Giving each part of a field exactly what it needs",
+        "Treating the whole field in the same way",
+        "Using the maximum of every input",
+        "Ignoring what the crops need"
+      ],
+      "answer": 0,
+      "explanation": "Matching inputs to local needs saves water, fertiliser, and pesticide while keeping yields."
+    },
+    {
+      "id": "RES-MCQ-09",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "How can a robot reduce fertiliser runoff into rivers?",
+      "options": [
+        "By dumping extra fertiliser everywhere",
+        "By applying fertiliser only where and when it is needed",
+        "By spraying the rivers directly",
+        "By fertilising at random"
+      ],
+      "answer": 1,
+      "explanation": "Applying just enough fertiliser in the right spot means less is washed away into waterways."
+    },
+    {
+      "id": "RES-MCQ-10",
+      "type": "mcq",
+      "difficulty": 2,
+      "difficulty_label": "Beginner",
+      "question": "In sustainable manufacturing, why is reducing scrap material important?",
+      "options": [
+        "It makes the factory louder",
+        "It uses more energy on purpose",
+        "It saves resources and lowers production waste",
+        "It slows every machine down"
+      ],
+      "answer": 2,
+      "explanation": "Less scrap means fewer raw materials consumed and less waste to dispose of."
+    },
+    {
+      "id": "RES-TF-10",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "A robotic recycling sorter can never tell different types of plastic apart.",
+      "answer": false,
+      "explanation": "Optical and spectral sensors identify each plastic's material signature so they can be separated."
+    },
+    {
+      "id": "RES-TF-11",
+      "type": "true_false",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Closed-loop control lets an irrigation system adjust watering based on real sensor readings.",
+      "answer": true,
+      "explanation": "Feedback from soil-moisture sensors continuously corrects how much water is delivered."
+    },
+    {
+      "id": "RES-MCQ-11",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "Which sensing method helps a robot separate different plastics on a recycling line?",
+      "options": [
+        "Spectral sensing that reads each material's signature",
+        "Guessing from the object's size alone",
+        "Reading the product's price tag",
+        "Listening to the sound of the plastic"
+      ],
+      "answer": 0,
+      "explanation": "Near-infrared and other spectral sensors reveal which polymer an item is made of."
+    },
+    {
+      "id": "RES-MCQ-12",
+      "type": "mcq",
+      "difficulty": 3,
+      "difficulty_label": "Advanced",
+      "question": "In smart irrigation, what does a feedback loop use to decide when to water?",
+      "options": [
+        "A fixed calendar that ignores the weather",
+        "Live soil-moisture and weather measurements",
+        "The colour of the sky only",
+        "The farmer's mood that day"
+      ],
+      "answer": 1,
+      "explanation": "Real measurements let the system water only when the soil and forecast call for it."
+    },
+    {
+      "id": "RES-TF-12",
+      "type": "true_false",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "In an automated factory, optimising the production schedule can cut both idle time and energy use.",
+      "answer": true,
+      "explanation": "Better sequencing keeps machines busy when needed and powered down otherwise, saving energy."
+    },
+    {
+      "id": "RES-MCQ-13",
+      "type": "mcq",
+      "difficulty": 4,
+      "difficulty_label": "Engineering",
+      "question": "Which strategy best reduces material waste in robotic 3D-printing production?",
+      "options": [
+        "Cutting each part from a solid block and discarding the rest",
+        "Printing every part twice for safety",
+        "Using the largest possible print each time",
+        "Adding material only where the part actually needs it"
+      ],
+      "answer": 3,
+      "explanation": "Additive manufacturing builds up only the needed material, unlike subtractive methods that remove and waste it."
+    }
+  ]
+}
