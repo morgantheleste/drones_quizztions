@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scan to Start the Quiz!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .print-card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    #qr-container {
+      margin: 30px auto;
+      display: flex;
+      justify-content: center;
+    }
+    #quiz-url {
+      font-family: monospace;
+      font-size: 1.1rem;
+      color: #007bff;
+      margin-bottom: 20px;
+      word-break: break-all;
+    }
+    .instructions {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .btn-print {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.2s;
+    }
+    .btn-print:hover {
+      background-color: #0056b3;
+    }
+    
+    @media print {
+      body {
+        background-color: white;
+      }
+      .print-card {
+        box-shadow: none;
+        padding: 0;
+      }
+      .btn-print {
+        display: none;
+      }
+      #qr-container {
+        margin: 50px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-card">
+    <h1>Scan to Start the Quiz!</h1>
+    <div id="qr-container"></div>
+    <div id="quiz-url"></div>
+    <p class="instructions">Open your camera app and scan the QR code above</p>
+    <button id="btn-print" class="btn-print">Print QR Code</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get current URL origin
+      const targetUrl = window.location.origin + '/';
+      
+      const qrContainer = document.getElementById('qr-container');
+      const urlDisplay = document.getElementById('quiz-url');
+      const printBtn = document.getElementById('btn-print');
+      
+      urlDisplay.textContent = targetUrl;
+      
+      // Generate QR Code using QRCode.toCanvas
+      QRCode.toCanvas(targetUrl, {
+        width: 250,
+        margin: 2,
+        color: {
+          dark: '#000000',
+          light: '#ffffff'
+        }
+      }, function (err, canvas) {
+        if (err) {
+          console.error(err);
+          qrContainer.textContent = 'Failed to generate QR code.';
+          return;
+        }
+        qrContainer.appendChild(canvas);
+      });
+      
+      // Print button functionality calls window.print()
+      printBtn.addEventListener('click', () => {
+        window.print();
+      });
+    });
+  </script>
+</body>
+</html>

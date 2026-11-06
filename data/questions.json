@@ -1,0 +1,111 @@
+{
+  "quizTitle": "English Knowledge Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "image": "/images/placeholder.svg",
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "correctAnswer": 2,
+      "timeLimit": 30,
+      "explanation": "Paris is the capital and most populous city of France."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "difficulty": 1,
+      "image": "/images/placeholder.svg",
+      "question": "The Earth is flat.",
+      "correctAnswer": false,
+      "timeLimit": 20,
+      "explanation": "The Earth is roughly a sphere, specifically an oblate spheroid."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "image": "/images/placeholder.svg",
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": 1,
+      "timeLimit": 30,
+      "explanation": "Mars is often called the 'Red Planet' due to the iron oxide prevalent on its surface."
+    },
+    {
+      "id": 4,
+      "type": "true_false",
+      "difficulty": 2,
+      "image": "/images/placeholder.svg",
+      "question": "Water boils at 100 degrees Celsius at sea level.",
+      "correctAnswer": true,
+      "timeLimit": 20,
+      "explanation": "At 1 atmosphere of pressure (sea level), water boils at 100°C (212°F)."
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "image": "/images/placeholder.svg",
+      "question": "Who wrote 'Hamlet'?",
+      "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+      "correctAnswer": 1,
+      "timeLimit": 30,
+      "explanation": "William Shakespeare wrote the tragedy 'Hamlet' around 1599-1601."
+    },
+    {
+      "id": 6,
+      "type": "true_false",
+      "difficulty": 3,
+      "image": "/images/placeholder.svg",
+      "question": "DNA stands for Deoxyribonucleic Acid.",
+      "correctAnswer": true,
+      "timeLimit": 20,
+      "explanation": "DNA is a molecule composed of two polynucleotide chains that coil around each other."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "image": "/images/placeholder.svg",
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "correctAnswer": 3,
+      "timeLimit": 30,
+      "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "difficulty": 1,
+      "image": "/images/placeholder.svg",
+      "question": "Humans have five senses.",
+      "correctAnswer": true,
+      "timeLimit": 20,
+      "explanation": "Traditionally, humans are said to have five main senses: sight, hearing, taste, smell, and touch."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "image": "/images/placeholder.svg",
+      "question": "What is the chemical symbol for Gold?",
+      "options": ["Ag", "Go", "Au", "Gd"],
+      "correctAnswer": 2,
+      "timeLimit": 30,
+      "explanation": "The symbol 'Au' comes from the Latin word for gold, 'aurum'."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "image": "/images/placeholder.svg",
+      "question": "In what year did the Titanic sink?",
+      "options": ["1912", "1905", "1898", "1923"],
+      "correctAnswer": 0,
+      "timeLimit": 30,
+      "explanation": "The RMS Titanic sank on April 15, 1912, after striking an iceberg."
+    }
+  ]
+}

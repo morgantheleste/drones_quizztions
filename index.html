@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive English quiz with timed questions, images, and a live leaderboard. Test your knowledge!">
+  <title>QuizMaster — English Quiz Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="app-container">
+    <!-- Screen 1: Welcome -->
+    <section id="screen-welcome" class="screen active">
+      <header class="welcome-header">
+        <div class="logo-area">
+          <span class="logo-icon">Q</span>
+        </div>
+        <h1 class="gradient-text">QuizMaster</h1>
+        <p class="subtitle">Test your knowledge, race against the clock!</p>
+      </header>
+      
+      <div class="welcome-form">
+        <label for="input-username" class="visually-hidden" style="display:none;">Username</label>
+        <input type="text" id="input-username" placeholder="Enter your name..." aria-label="Enter your name" maxlength="15">
+        <button id="btn-start" class="btn btn-primary btn-lg">Start Quiz</button>
+        <button id="btn-rules" class="btn btn-secondary" style="margin-top: -0.5rem; font-size: 0.9rem; padding: 0.5rem;">How it works</button>
+      </div>
+
+      <!-- Rules Modal -->
+      <div id="rules-modal" class="rules-modal hidden">
+        <div class="rules-content glass-card">
+          <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">How to Play</h3>
+          <ul style="text-align: left; margin-bottom: 1.5rem; padding-left: 1.5rem; color: var(--text-main); font-size: 0.95rem; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li>Answer the questions as fast as possible.</li>
+            <li>Points depend on the question's difficulty.</li>
+            <li>Speed gives you a massive score bonus!</li>
+            <li><b>Streak Bonus:</b> Consecutive correct answers multiply your points (2x, 3x...)!</li>
+            <li>Wrong answers give 0 points and break your streak.</li>
+          </ul>
+          <button id="btn-close-rules" class="btn btn-primary">Got it!</button>
+        </div>
+      </div>
+      
+      <div id="leaderboard-preview" class="leaderboard-preview">
+        <!-- Leaderboard preview content will be injected here -->
+      </div>
+    </section>
+
+    <!-- Screen 2: Quiz -->
+    <section id="screen-quiz" class="screen">
+      <header class="quiz-top-bar">
+        <div id="question-counter" class="question-counter">Question 1/10</div>
+        <div id="streak-display" class="streak-display hidden">Combo: 2x</div>
+        <div id="score-display" class="score-display">Score: 0</div>
+      </header>
+
+      <div id="progress-bar" class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+
+      <div class="quiz-content">
+        <div class="timer-wrapper">
+          <div class="timer-container" id="timer-container">
+            <svg class="timer-svg" viewBox="0 0 120 120" id="timer-ring">
+              <circle class="timer-bg" cx="60" cy="60" r="54" />
+              <circle class="timer-fill" id="timer-fill" cx="60" cy="60" r="54" />
+            </svg>
+            <span class="timer-text" id="timer-text">30</span>
+          </div>
+        </div>
+
+        <div id="difficulty-badge" class="difficulty-badge">Medium</div>
+
+        <div id="question-image-container" class="question-image-container hidden" style="display:none;">
+          <img id="question-image" src="" alt="Question image">
+        </div>
+
+        <h2 id="question-text" class="question-text">Loading question...</h2>
+
+        <div id="answers-container" class="answers-container">
+          <!-- Answer buttons will be injected here -->
+        </div>
+
+        <div id="explanation-container" class="explanation-container hidden" style="display:none;">
+          <h3 style="color: var(--accent-cyan); margin-bottom: 0.5rem;">Explanation</h3>
+          <p id="explanation-text"></p>
+          <button id="btn-next-question" class="btn btn-primary" style="margin-top: 1.5rem;">Next Question</button>
+        </div>
+      </div>
+
+      <div id="feedback-overlay" class="feedback-overlay hidden" style="display:none;">
+        <div class="feedback-content">
+          <span id="feedback-icon" class="feedback-icon"></span>
+          <p id="feedback-text" class="feedback-text"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screen 3: Results -->
+    <section id="screen-results" class="screen">
+      <header class="results-header">
+        <div class="trophy-area">Results</div>
+        <h2>Quiz Complete!</h2>
+      </header>
+
+      <div id="final-score-card" class="final-score-card">
+        <div class="score-main">
+          <h3>Your Score</h3>
+          <div id="final-score" class="final-score-value">0</div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-label">Correct Answers</span>
+            <span id="stat-correct" class="stat-value">0/0</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Accuracy</span>
+            <span id="stat-accuracy" class="stat-value">0%</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Avg Time</span>
+            <span id="stat-avg-time" class="stat-value">0s</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="leaderboard-section">
+        <h3>Leaderboard</h3>
+        <table id="leaderboard-full" class="leaderboard-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Date</th>
+              <th style="text-align: right;">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Leaderboard rows will be injected here -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="results-actions">
+        <button id="btn-play-again" class="btn btn-primary">Play Again</button>
+        <button id="btn-share" class="btn btn-secondary">Share Results</button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
