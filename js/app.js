@@ -69,13 +69,13 @@ function renderQuestion() {
   const scoreDisplay = $('#score-display');
   if (scoreDisplay) scoreDisplay.textContent = `Score: ${quiz.getResults().totalScore}`;
 
-  // Difficulty badge
+  // Difficulty badge (neumorphic: colour conveyed via data-level, not a solid fill)
   const badge = $('#difficulty-badge');
   if (badge) {
-    badge.textContent = getDifficultyLabel(q.difficulty || 1);
-    badge.style.background = getDifficultyColor(q.difficulty || 1);
-    badge.style.color = '#fff';
-    badge.style.display = 'inline-block';
+    const level = q.difficulty || 1;
+    badge.textContent = getDifficultyLabel(level);
+    badge.dataset.level = level;
+    badge.style.display = 'inline-flex';
   }
 
   // Image

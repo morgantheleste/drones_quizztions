@@ -8,8 +8,14 @@
   --success: #00b894;
   --warning: #fdcb6e;
 
-  --shadow-dark: rgba(163, 177, 198, 0.6);
-  --shadow-light: rgba(255, 255, 255, 0.5);
+  --shadow-dark: rgba(163, 177, 198, 0.55);
+  --shadow-light: rgba(255, 255, 255, 0.85);
+
+  /* Difficulty accent colours (used by the neumorphic pills) */
+  --diff-1: #00b894;
+  --diff-2: #0984e3;
+  --diff-3: #e17055;
+  --diff-4: #6c5ce7;
 
   --neu-outer: 9px 9px 16px var(--shadow-dark), -9px -9px 16px var(--shadow-light);
   --neu-outer-sm: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
@@ -67,7 +73,7 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 480px;
   min-height: 100vh;
-  padding: var(--space-md);
+  padding: var(--space-lg);
   display: flex;
   flex-direction: column;
 }
@@ -91,7 +97,7 @@ h1, h2, h3, h4 {
   align-items: center;
   width: 100%;
   gap: var(--space-md);
-  padding: var(--space-lg) 0;
+  padding: var(--space-lg) var(--space-xs);
 }
 
 .screen.active {
@@ -342,9 +348,9 @@ input[type="text"]:focus {
 
 .timer-bg {
   fill: none;
-  stroke: var(--bg);
+  stroke: var(--shadow-dark);
   stroke-width: 8;
-  filter: drop-shadow(2px 2px 3px rgba(163,177,198,0.5));
+  opacity: 0.35;
 }
 
 .timer-fill {
@@ -366,14 +372,59 @@ input[type="text"]:focus {
 }
 
 .difficulty-badge {
-  padding: 0.25rem 1rem;
+  --d-color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.1rem;
   background: var(--bg);
   box-shadow: var(--neu-outer-sm);
   border-radius: var(--radius-full);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--d-color);
+}
+
+/* Colour dot carved into the pill — keeps the surface neumorphic
+   while the difficulty level stays legible via colour. */
+.difficulty-badge::before {
+  content: "";
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--d-color);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+  flex: none;
+}
+
+.difficulty-badge[data-level="1"] { --d-color: var(--diff-1); }
+.difficulty-badge[data-level="2"] { --d-color: var(--diff-2); }
+.difficulty-badge[data-level="3"] { --d-color: var(--diff-3); }
+.difficulty-badge[data-level="4"] { --d-color: var(--diff-4); }
+
+/* ─── Question Image (uniform crop + neumorphic frame) ─────────── */
+.question-image-container {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  padding: 7px;
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--neu-outer);
+}
+
+.question-image-container.hidden {
+  display: none;
+}
+
+.question-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: calc(var(--radius-lg) - 7px);
 }
 
 .question-text {
